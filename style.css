@@ -1,0 +1,143 @@
+body{
+    
+
+    width: 1000px;
+    border: 2px solid black;
+    margin: auto;
+    
+}
+body> div:first-of-type{
+    display: flex;
+    align-items: flex-end;
+    flex: row;
+    width: 100%;
+    background-image: url(image/astronaud23-OnoRhQJfPRo-unsplash.jpg);
+    height: 200px;
+    background-position:center;
+    background-repeat: ;
+}
+div header{
+    color: darkslategray;
+display: flex;
+flex: 2;
+}
+
+ .hefo{
+    display: flex;
+    align-items: flex-start
+    
+}
+.hefo .form-control{
+    width: 45%;
+    display:flex;
+    
+    justify-content: space-between;
+    margin: 6px;
+    
+    
+}
+#submit{
+    background-color: skyblue;
+    width: 70px;
+}
+
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+   
+    align-items: flex-start;
+    
+    background-color: darkslategray;
+    padding: 0px;
+    text-align: left;
+
+}
+ul li{
+    padding: 10px;
+}
+li:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+ a{
+    text-decoration: none;
+}
+ 
+
+
+
+.form{
+    box-sizing: border-box;
+    border: 1px solid red;
+    margin: 2px;
+    background-color: aliceblue;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 5px;
+}
+.first{
+    display: flex;
+   
+
+    
+}
+.first .form-control{
+    width:50%;
+    display:flex;
+    justify-content: space-between;
+    margin: 6px;
+    
+
+}
+.second{
+    display: flex;
+}
+.second .form-control{
+    width:50%;
+    display:flex;
+    justify-content: space-between;
+    margin: 6px;
+    
+}
+.third{
+    display: flex;
+}
+.third .form-control{
+    width:50%;
+    display:flex; 
+    justify-content: space-between;
+    margin:6px;
+}
+.btn{
+    width: 90%;
+    background-color: aqua;
+}
+
+
+@media screen and (max-width: 576px) {
+    body> div:first-of-type{
+        flex-direction: column;
+        align-items: start;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    .hefo{
+        flex-direction: column;
+    }
+    .first{
+        flex-direction: column;
+    }
+    .second{
+        flex-direction: column;
+    }
+    .third{
+        flex-direction: column;
+    }
+    
+    
+}
